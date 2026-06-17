@@ -31,7 +31,7 @@ SkyPulse delivers accurate and fast weather updates with a clean, responsive int
 ---
 
 ## 📁 Project Structure
-
+```
 SkyPulse/
 ├── app/          # App router pages & layouts
 ├── components/   # Reusable UI components
@@ -41,7 +41,7 @@ SkyPulse/
 ├── types/        # TypeScript definitions
 ├── public/       # Static assets
 └── data/         # Static/mock data (if any)
-
+```
 ---
 
 ## ⚙️ Getting Started

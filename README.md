@@ -68,8 +68,6 @@ Open 👉 http://localhost:3000
 Create a `.env.local` file:
 OPENWEATHER_API_KEY=api_key
 GEONAMES_USERNAME=your_geonames_username_here
-
-# ─── App Config ───────────────────────────────────────────────────────────────
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 RATE_LIMIT_MAX=100
 RATE_LIMIT_WINDOW_MS=900000

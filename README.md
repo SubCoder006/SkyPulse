@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌦️ SkyPulse
 
-## Getting Started
+SkyPulse is a modern full-stack weather application built with Next.js that provides real-time weather insights with a sleek bluish-dark UI and dynamic condition-based visuals.
 
-First, run the development server:
+## 🚀 Overview
 
-```bash
+SkyPulse delivers accurate and fast weather updates with a clean, responsive interface. It focuses on performance, modular architecture, and an engaging user experience through dynamic weather representations.
+
+---
+
+## ✨ Features
+
+* 🌍 Real-time weather data fetching
+* 🔍 Search weather by city/location
+* 🌡️ Detailed metrics (temperature, humidity, wind, visibility)
+* 🎨 Dynamic weather icons & visuals (sunny, cloudy, thunder, etc.)
+* 🌙 Bluish-dark modern UI theme
+* 📱 Fully responsive design
+* ⚡ Optimized performance with Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend & Backend:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Utilities:** clsx
+
+---
+
+## 📁 Project Structure
+
+SkyPulse/
+├── app/          # App router pages & layouts
+├── components/   # Reusable UI components
+├── hooks/        # Custom React hooks
+├── lib/          # Core logic / API handling
+├── utils/        # Helper functions
+├── types/        # TypeScript definitions
+├── public/       # Static assets
+└── data/         # Static/mock data (if any)
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/SubCoder006/SkyPulse.git
+cd SkyPulse
+
+### 2️⃣ Install Dependencies
+
+npm install
+
+### 3️⃣ Run Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open 👉 http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Environment Variables
 
-## Learn More
+Create a `.env.local` file:
+OPENWEATHER_API_KEY=api_key
+GEONAMES_USERNAME=your_geonames_username_here
 
-To learn more about Next.js, take a look at the following resources:
+# ─── App Config ───────────────────────────────────────────────────────────────
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+RATE_LIMIT_MAX=100
+RATE_LIMIT_WINDOW_MS=900000
+CACHE_WEATHER_TTL=600000
+CACHE_FORECAST_TTL=1800000
+CACHE_CITIES_TTL=3600000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Replace with your actual API provider (OpenWeather, WeatherAPI, etc.)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev     # Start development server
+npm run build   # Build for production
+npm run start   # Run production build
+npm run lint    # Lint code
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Deployment
+
+Easily deploy using:
+
+* Vercel (recommended)
+* Netlify
+* Any Node.js hosting platform
+
+---
+
+## 🔮 Future Enhancements
+
+* 📊 Hourly & weekly forecast charts
+* 📍 Auto-detect location (Geolocation API)
+* ⭐ Save favorite cities
+* 🌗 Light/Dark theme toggle
+* 📈 Advanced weather analytics
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome:
+
+1. Fork the repository
+2. Create a new branch
+3. Make changes
+4. Submit a pull request
+
+---
+
+## 📄 License
+
+Add your preferred license (MIT recommended)
+
+---
+
+## 👨‍💻 Author
+
+**SubCoder006**
+
+---
+
+## 💡 Resume Line
+
+**SkyPulse – Weather Forecasting Web App**
+Built a full-stack weather application using Next.js and TypeScript, featuring real-time API integration, dynamic UI rendering based on weather conditions, and a responsive bluish-dark themed interface.

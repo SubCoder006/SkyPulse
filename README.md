@@ -66,6 +66,7 @@ Open 👉 http://localhost:3000
 ## 🔐 Environment Variables
 
 Create a `.env.local` file:
+```
 OPENWEATHER_API_KEY=api_key
 GEONAMES_USERNAME=your_geonames_username_here
 NEXT_PUBLIC_APP_URL=http://localhost:3000
@@ -74,18 +75,19 @@ RATE_LIMIT_WINDOW_MS=900000
 CACHE_WEATHER_TTL=600000
 CACHE_FORECAST_TTL=1800000
 CACHE_CITIES_TTL=3600000
+```
 
 > Replace with your actual API provider (OpenWeather, WeatherAPI, etc.)
 
 ---
 
 ## 📦 Scripts
-
+```
 npm run dev     # Start development server
 npm run build   # Build for production
 npm run start   # Run production build
 npm run lint    # Lint code
-
+```
 ---
 
 ## 🚀 Deployment
